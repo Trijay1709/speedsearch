@@ -9,6 +9,7 @@ const config = {
     './src/**/*.{ts,tsx}',
 	],
   prefix: "",
+  
   theme: {
     container: {
       center: true,
@@ -18,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily:{
+        sk:["SK","mono"]
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

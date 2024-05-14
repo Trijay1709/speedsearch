@@ -1,9 +1,9 @@
 import { Redis } from '@upstash/redis'
 
 const redis = new Redis({
-  url: 'https://apn1-amazed-hare-34179.upstash.io',
-  token: 'AYWDASQgMGEyNWZhOGQtYTU1Zi00N2ZiLTg2MDQtNGE5OGFkMWI3NjY3Mjg5MzQ4MjI4NmNjNDViY2JhODdmOWY1ZDczYzM2YTM=',
-})
+	url: 'https://saved-mongrel-47440.upstash.io',
+	token: 'AblQAAIncDFlMDc5YWNmZmUxZTY0ZWI4YmJjNDY1ZTYyMTYzOGJkMnAxNDc0NDA',
+  })
 
 const countryList = [
 	"Afghanistan",
