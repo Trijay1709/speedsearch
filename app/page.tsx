@@ -18,11 +18,11 @@ export default function Home() {
 
   return (
     <>
-      <main className="h-screen w-screen grainy flex flex-col items-center">
-        <div className="text-6xl text-black pb-24 pt-[12rem] font-sk animate-in slide-in-from-top-6 fade-in-10 duration-500">
+      <main className="h-screen w-screen grainy flex flex-col items-center bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900">
+        <div className="text-6xl text-white pb-24 pt-[12rem] font-sk animate-in slide-in-from-top-6 fade-in-10 duration-500">
           Redis Search
         </div>
-        <Command className="animate-in slide-in-from-top-7 fade-in-10 duration-500 w-[35rem]">
+        <Command className="font-mono animate-in slide-in-from-top-7 fade-in-10 duration-500 w-[35rem]">
           <CommandInput value={input} onValueChange={ setInput } placeholder="Search for countries" />
           <CommandList>
             {results?.results.length === 0 ? (
